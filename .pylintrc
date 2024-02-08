@@ -1,0 +1,14 @@
+[MAIN]
+max-branches=20
+max-line-length = 130
+disable =
+    C0103, # missing-class-docstring
+    C0114, # missing-module-docstring
+    C0115, # missing-class-docstring
+    C0116, # missing-function-docstring
+    C0415, # import-outside-toplevel
+    E0401, # import-error
+    W0401, # wildcard-import
+    W0611, # unused-import
+    W0614, # unused-wildcard-import
+    W0702, # bare-except
